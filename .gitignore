@@ -10,4 +10,8 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Other stuff
+/node_modules
+.env
 .DS_Store
