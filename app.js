@@ -8,6 +8,7 @@ const port = 3000;
 
 // Middleware
 app.use(express.json()); // If we don't use this we wont have the data in the body of the request
+app.use(express.static('./public')); // For serving static files (HTML)
 
 // Routes
 app.get('/hello', (req, res) => {
